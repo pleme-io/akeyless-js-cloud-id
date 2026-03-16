@@ -15,7 +15,7 @@
         version = "0.0.0-dev";
         src = self;
         npmFlags = [ "--legacy-peer-deps" ];
-        npmDepsHash = "sha256-F+ga7VMfOFRrb8zv2CaLqea4NNt0TGTbbolYLbEscXw="; # TODO: set correct hash
+        npmDepsHash = "sha256-F+ga7VMfOFRrb8zv2CaLqea4NNt0TGTbbolYLbEscXw=";
         dontNpmBuild = true;
         meta = {
           description = "Akeyless CloudId Provider for authenticating via cloud authorization providers (AWS, Azure, GCP)";

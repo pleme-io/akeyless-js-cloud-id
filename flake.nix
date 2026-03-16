@@ -14,6 +14,7 @@
         pname = "akeyless-cloud-id";
         version = "0.0.0-dev";
         src = self;
+        npmFlags = [ "--legacy-peer-deps" ];
         npmDepsHash = "sha256-F+ga7VMfOFRrb8zv2CaLqea4NNt0TGTbbolYLbEscXw="; # TODO: set correct hash
         dontNpmBuild = true;
         meta = {
